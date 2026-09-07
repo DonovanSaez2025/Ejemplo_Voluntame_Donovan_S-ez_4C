@@ -8,3 +8,5 @@ from flask_app.controllers.controlador_misiones import misiones_bp
 app.register_blueprint(usuarios_bp)
 app.register_blueprint(misiones_bp)
 
+if __name__ == "__main__":
+    app.run(debug=True)

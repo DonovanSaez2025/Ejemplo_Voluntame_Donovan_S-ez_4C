@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 click = "==8.3.1"
-flask = "==3.1.2"
 flask-bcrypt = "==1.0.1"
 itsdangerous = "==2.2.0"
 jinja2 = "==3.1.6"
@@ -15,6 +14,8 @@ python-dotenv = "==1.2.1"
 werkzeug = "==3.1.5"
 bcrypt = "*"
 blinker = "*"
+flask = "*"
+cryptography = "*"
 
 [dev-packages]
 
