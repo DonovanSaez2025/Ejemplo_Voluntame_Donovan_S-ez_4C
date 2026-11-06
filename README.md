@@ -1,13 +1,13 @@
 # VoluntaMe: Plataforma de Gestión de Voluntariado
 
-## Sobre el Proyecto
-VoluntaMe es una aplicación web diseñada para conectar personas con iniciativas comunitarias. El propósito principal es permitir que cualquier usuario pueda liderar una misión de ayuda o unirse como voluntario a las existentes.
+## Descripción
+VoluntaMe es una okatafirna wev creada para hacer conexiones de personas con iniciativas comunitarias y solidarias. Donde el objetivo principal es permitir que cualquier usuario pueda liderar una misión de ayuda o unirse de voluntario a las ya existentes.
 
-Este proyecto fue desarrollado íntegramente por mí como parte de mi examen de certificación Fullstack, poniendo énfasis en buenas prácticas de programación, seguridad de datos y una arquitectura escalable.
+Este proyecto fue desarrollado enteramente por mí, como parte de mi certificación Fullstack de Skillnest, poniendo énfasis en las buenas prácticas de programación, seguridad de datos y arquitectura escalable.
 
 ---
 
-## Tecnologías y Arquitectura
+## Tecnologías y arquitectura
 El sistema está construido bajo el patrón de diseño MVC (Modelo-Vista-Controlador), lo que garantiza un código ordenado y mantenible.
 
 * **Backend:** Python con Flask (Blueprints).
@@ -17,17 +17,17 @@ El sistema está construido bajo el patrón de diseño MVC (Modelo-Vista-Control
 
 ---
 
-## Funcionalidades Clave
+## Funcionalidades clave
 
-### 1. Seguridad y Usuarios
+### 1. Seguridad y usuarios
 Más allá de un registro simple, el sistema cuenta con validaciones estrictas para asegurar que los correos sean únicos y las contraseñas seguras. Protegemos las rutas para que solo usuarios autenticados puedan acceder a la plataforma.
 
-### 2. Gestión Inteligente de Misiones
+### 2. Gestión inteligente de misiones
 Los usuarios pueden crear, ver y administrar misiones de voluntariado.
-* **Protección de Propiedad:** Implementé una lógica de backend que asegura que solo el creador de una misión pueda editarla o eliminarla, previniendo accesos no autorizados mediante manipulación de URLs.
-* **Validaciones de Negocio:** El sistema impide crear eventos en fechas pasadas y controla que los cupos de voluntarios sean lógicos (entre 2 y 20 personas).
+* **Protección de propiedad:** Implementé una lógica de backend que asegura que solo el creador de una misión pueda editarla o eliminarla, previniendo accesos no autorizados mediante manipulación de URLs.
+* **Validaciones de negocio:** El sistema impide crear eventos en fechas pasadas y controla que los cupos de voluntarios sean lógicos (entre 2 y 20 personas).
 
-### 3. La Funcionalidad "VoluntaMe"
+### 3. La funcionalidad "Volunta-Me"
 Es el corazón de la aplicación. Permite que los usuarios se inscriban en misiones con un solo clic.
 * El sistema detecta automáticamente si el usuario ya participa en la misión.
 * Si ya está inscrito, el botón de registro desaparece y confirma su asistencia.
@@ -36,6 +36,6 @@ Es el corazón de la aplicación. Permite que los usuarios se inscriban en misio
 ---
 
 ## Autor
-**Danny**
-Desarrollador Fullstack Python
-Contacto: dannyahg@gmail.com
+**Donovan Sáez** - Desarrollador Fullstack Python
+
+Contacto: *donovansaez@liceovvh.cl*

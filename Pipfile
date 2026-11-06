@@ -16,6 +16,7 @@ bcrypt = "*"
 blinker = "*"
 flask = "*"
 cryptography = "*"
+pipenv = "*"
 
 [dev-packages]
 
