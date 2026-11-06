@@ -8,11 +8,11 @@ Este proyecto fue desarrollado enteramente por mí, como parte de mi certificaci
 ---
 
 ## Tecnologías y arquitectura
-El sistema está construido bajo el patrón de diseño MVC (Modelo-Vista-Controlador), lo que garantiza un código ordenado y mantenible.
+La plataforma se desarrolló con el patrón de diseño MVC (Modelo-Vista Controlador), garantizando un código ordenado y mantenible.
 
 * **Backend:** Python con Flask (Blueprints).
 * **Base de Datos:** MySQL con relaciones.
-* **Seguridad:** Encriptación de contraseñas con Bcrypt y manejo seguro de sesiones.
+* **Seguridad:** Contraseñas encriptadas con Bcrypt y manejo seguro de sesiones.
 * **Frontend:** Plantillas Jinja2 con diseño responsivo mediante Bootstrap.
 
 ---

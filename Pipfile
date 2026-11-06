@@ -14,9 +14,9 @@ python-dotenv = "==1.2.1"
 werkzeug = "==3.1.5"
 bcrypt = "*"
 blinker = "*"
-flask = "*"
 cryptography = "*"
 pipenv = "*"
+flask = "*"
 
 [dev-packages]
 
